@@ -64,9 +64,7 @@ console.log({
 });
 
 //Integrar lista de empleados con html
-for (let i = 0; i < colombia.length; i++){
-    var fila = '<tr><td>'+name+'</td><td>'+salary+'</td></tr>';
-}
+
 
 
 document.getElementById('tableData').innerHTML = mapeaTabla;
